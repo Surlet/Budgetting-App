@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mM4txJ3NNUs=",
+  "dgSpecHash": "0EM+bUJiyvk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\antoi\\OneDrive - Antoine Lejeune\\Formation\\C#\\BudgetingApp\\BudgetingApp\\BudgetingApp\\BudgetingApp.csproj",
+  "projectFilePath": "C:\\Users\\antoi\\OneDrive - Antoine Lejeune\\Formation\\C#\\BudgetingApp\\Budgetting App\\BudgetingApp\\BudgetingApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antoi\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",

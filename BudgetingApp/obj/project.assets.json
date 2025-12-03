@@ -34160,11 +34160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antoi\\OneDrive - Antoine Lejeune\\Formation\\C#\\BudgetingApp\\BudgetingApp\\BudgetingApp\\BudgetingApp.csproj",
+      "projectUniqueName": "C:\\Users\\antoi\\OneDrive - Antoine Lejeune\\Formation\\C#\\BudgetingApp\\Budgetting App\\BudgetingApp\\BudgetingApp.csproj",
       "projectName": "BudgetingApp",
-      "projectPath": "C:\\Users\\antoi\\OneDrive - Antoine Lejeune\\Formation\\C#\\BudgetingApp\\BudgetingApp\\BudgetingApp\\BudgetingApp.csproj",
+      "projectPath": "C:\\Users\\antoi\\OneDrive - Antoine Lejeune\\Formation\\C#\\BudgetingApp\\Budgetting App\\BudgetingApp\\BudgetingApp.csproj",
       "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\antoi\\OneDrive - Antoine Lejeune\\Formation\\C#\\BudgetingApp\\BudgetingApp\\BudgetingApp\\obj\\",
+      "outputPath": "C:\\Users\\antoi\\OneDrive - Antoine Lejeune\\Formation\\C#\\BudgetingApp\\Budgetting App\\BudgetingApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
