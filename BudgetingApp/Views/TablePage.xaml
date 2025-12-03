@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:BudgetingApp.ViewModels"
+             x:Class="BudgetingApp.Views.TablePage"
+             Title="TablePage">
+    <ContentPage.BindingContext>
+        <vm:TableViewModel />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <CollectionView ItemsSource="{Binding ExpensesCollection}" Grid.Row="5" Grid.ColumnSpan="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid RowDefinitions="*,*" ColumnDefinitions="3*,*">
+                        <Label Text="{Binding StoreName}" />
+                        <Label Grid.Column="1" Text="{Binding Category}" />
+                        <Label Grid.Row="1" Text="{Binding Amount}" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
