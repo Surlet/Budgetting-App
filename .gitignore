@@ -1,0 +1,12 @@
+# Fichiers et dossiers Visual Studio à ignorer
+
+# Dossiers du cache de la solution
+.vs/
+
+# Fichiers temporaires de l'utilisateur Visual Studio
+*.suo
+*.user
+
+# Fichiers de projet de cache de gestion de source (si vous n'utilisez pas Git, mais c'est une bonne pratique)
+*.vspscc
+*.vssscc
