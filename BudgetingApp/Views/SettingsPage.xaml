@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="BudgetingApp.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Paramètres">
+    <VerticalStackLayout Spacing="10" Padding="10">
+        <HorizontalStackLayout Spacing="10" Padding="5">
+            <Label Text="Budget mensuel" VerticalOptions="Center" WidthRequest="400"/>
+            <Entry WidthRequest="150"/>
+        </HorizontalStackLayout>
+        <Button Text="Confirmer" />
+    </VerticalStackLayout>
+</ContentPage>

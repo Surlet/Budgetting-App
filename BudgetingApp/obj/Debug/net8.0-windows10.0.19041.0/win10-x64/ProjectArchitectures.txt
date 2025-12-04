@@ -1,1 +1,1 @@
-C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\BudgetingApp.csproj;x64
+C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\BudgetingApp.csproj;x64
