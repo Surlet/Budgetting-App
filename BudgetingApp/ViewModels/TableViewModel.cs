@@ -1,5 +1,7 @@
 ﻿using BudgetingApp.Models;
+using BudgetingApp.Services;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,13 +11,32 @@ using System.Threading.Tasks;
 
 namespace BudgetingApp.ViewModels
 {
-    partial class TableViewModel: ObservableObject
+    public partial class TableViewModel: ObservableObject
     {
-        ObservableCollection<Expense> ExpensesCollection { get; set; }
+        public ObservableCollection<Expense> ExpensesCollection { get; set; }
 
-        public TableViewModel()
+        private readonly DatabaseService _databaseService;
+
+        
+
+        public TableViewModel(DatabaseService databaseService)
         {
+            _databaseService = databaseService;
             ExpensesCollection = new ObservableCollection<Expense>();
+            LoadExpensesAsync();
         }
+
+        [RelayCommand]
+        private async Task LoadExpensesAsync()
+        {
+            var data = await _databaseService.GetExpensesAsync();
+            ExpensesCollection.Clear();
+            foreach (Expense expense in data)
+            {
+                ExpensesCollection.Add(expense);
+            }
+
+        }
+
     }
 }

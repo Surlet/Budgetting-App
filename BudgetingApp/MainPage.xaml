@@ -6,9 +6,6 @@
     xmlns:vm="clr-namespace:BudgetingApp.ViewModels"
     xmlns:input="clr-namespace:InputKit.Shared.Controls;assembly=InputKit.Maui">
 
-    <ContentPage.BindingContext>
-        <vm:FormViewModel />
-    </ContentPage.BindingContext>
     <Grid
         Padding="15"
         ColumnDefinitions="Auto, Auto"
