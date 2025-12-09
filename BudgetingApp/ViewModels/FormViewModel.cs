@@ -49,7 +49,7 @@ namespace BudgetingApp.ViewModels
                 Category = categoryEntry,
                 Amount = double.Parse(amountEntry)
             };
-            _databaseService.AddExpenseAsync(newExpense);
+            _databaseService.AddAsync(newExpense);
             ExpensesCollection.Add(newExpense);
         }
 

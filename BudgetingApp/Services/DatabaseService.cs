@@ -10,37 +10,33 @@ namespace BudgetingApp.Services
 {
     public class DatabaseService
     {
-        private readonly string _dbPath;
-        private SQLiteAsyncConnection _database;
+        private readonly Task _initializeTask;
+        private readonly SQLiteAsyncConnection _database;
 
         public DatabaseService(string dbPath)
         {
-            _dbPath = dbPath;
+            _database = new SQLiteAsyncConnection(dbPath);
+            _initializeTask = InitializeAsync();
         }
 
         private async Task InitializeAsync()
         {
-            if (_database != null)
-                return;
-
-            _database = new SQLiteAsyncConnection(_dbPath);
-
             await _database.CreateTableAsync<Expense>();
         }
 
 
         // ----- CRUD -----
 
-        public async Task<int> AddExpenseAsync(Expense expense)
+        public async Task<int> AddAsync<T>(T item) where T : new()
         {
-            InitializeAsync();
-            return await _database.InsertAsync(expense);
+            await _initializeTask;
+            return await _database.InsertAsync(item);
         }
 
-        public async Task<List<Expense>> GetExpensesAsync()
+        public async Task<List<T>> GetAllAsync<T>() where T : new()
         {
-            InitializeAsync();
-            return await _database.Table<Expense>().ToListAsync();
+            await _initializeTask;
+            return await _database.Table<T>().ToListAsync();
         }
 
     }

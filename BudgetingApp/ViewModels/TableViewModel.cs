@@ -29,7 +29,7 @@ namespace BudgetingApp.ViewModels
         [RelayCommand]
         private async Task LoadExpensesAsync()
         {
-            var data = await _databaseService.GetExpensesAsync();
+            var data = await _databaseService.GetAllAsync<Expense>();
             ExpensesCollection.Clear();
             foreach (Expense expense in data)
             {
