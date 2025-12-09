@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.budgetingapp</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>B80CCA42DC83A4421D35500379B4232A56E7AB478492A799DF5463A145B9F4DD</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.budgetingapp_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.budgetingapp_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,268 +26,268 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-12-02T12:44:17.695</Modified>
+      <Modified>2025-12-04T17:01:11.125</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-12-02T12:44:17.322</Modified>
+      <Modified>2025-12-04T10:23:44.906</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.runtimeconfig.json">
       <PackagePath>BudgetingApp.runtimeconfig.json</PackagePath>
-      <Modified>2025-11-26T09:45:40.326</Modified>
+      <Modified>2025-12-04T10:23:44.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.dll">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.dll">
       <PackagePath>BudgetingApp.dll</PackagePath>
-      <Modified>2025-12-02T12:44:14.797</Modified>
+      <Modified>2025-12-04T17:01:10.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BudgetingApp.exe</PackagePath>
-      <Modified>2025-12-02T12:44:14.897</Modified>
+      <Modified>2025-12-04T17:01:10.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2025-10-25T13:04:55.820</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2025-10-25T20:28:39.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2025-10-25T20:28:39.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2025-10-25T20:28:39.499</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2025-10-25T20:28:39.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2025-10-25T20:28:39.712</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2025-10-25T13:04:55.806</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2025-10-25T13:04:55.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2025-10-25T20:28:42.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2025-10-25T20:28:42.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2025-10-25T20:28:42.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2025-10-25T20:28:42.909</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2025-10-25T20:28:42.909</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2025-10-25T20:28:42.909</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2025-10-25T20:28:42.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2025-10-25T20:28:42.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2025-10-25T20:28:42.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2025-10-25T20:28:42.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2025-10-25T20:28:42.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2025-10-25T20:28:42.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2025-10-25T20:28:42.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2025-10-25T20:28:42.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2025-10-25T20:28:42.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2025-10-25T20:28:42.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2025-10-25T20:28:42.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2025-10-25T20:28:42.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2025-10-25T20:28:42.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2025-10-25T20:28:42.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2025-10-25T20:28:42.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2025-10-25T20:28:42.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2025-10-25T20:28:42.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2025-10-25T20:28:42.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2025-10-25T20:28:42.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2025-10-25T20:28:42.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2025-10-25T20:28:42.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2025-10-25T20:28:42.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2025-10-25T20:28:42.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2025-10-25T20:28:42.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2025-10-25T20:28:42.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2025-10-25T20:28:42.914</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2025-10-25T20:28:42.914</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2025-10-25T20:28:42.914</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2025-10-25T20:28:42.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2025-10-25T20:28:42.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2025-10-25T20:28:42.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2025-10-25T20:28:42.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2025-10-25T20:28:42.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2025-10-25T20:28:42.914</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2025-10-25T20:28:42.914</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2025-10-25T20:28:42.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2025-10-25T20:28:42.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2025-10-25T20:28:42.911</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2025-10-25T20:28:42.911</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2025-10-25T20:28:42.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2025-10-25T20:28:42.908</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2025-10-25T20:28:42.908</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2025-10-25T20:28:42.908</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2025-10-25T20:28:42.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2025-10-25T20:28:42.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\BudgetingApp\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.deps.json">
+    <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.deps.json">
       <PackagePath>BudgetingApp.deps.json</PackagePath>
-      <Modified>2025-12-02T12:44:16.749</Modified>
+      <Modified>2025-12-04T10:23:44.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.41\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
