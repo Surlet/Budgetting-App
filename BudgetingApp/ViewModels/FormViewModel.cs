@@ -10,11 +10,12 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using BudgetingApp.Services;
 
 
 namespace BudgetingApp.ViewModels
 {
-    partial class FormViewModel : ObservableObject
+    public partial class FormViewModel : ObservableObject
     {
 		//----- 2. Propriétés -----//
 
@@ -30,9 +31,11 @@ namespace BudgetingApp.ViewModels
         [NotifyCanExecuteChangedFor(nameof(AddExpenseCommand))]
         private string amountEntry;
 
+        private readonly DatabaseService _databaseService;
 
-		// Collection with all expenses
-		public ObservableCollection<Expense> ExpensesCollection { get; set; }
+
+        // Collection with all expenses
+        public ObservableCollection<Expense> ExpensesCollection { get; set; }
 
 		// ----- Commands -----
 
@@ -46,6 +49,7 @@ namespace BudgetingApp.ViewModels
                 Category = categoryEntry,
                 Amount = double.Parse(amountEntry)
             };
+            _databaseService.AddAsync(newExpense);
             ExpensesCollection.Add(newExpense);
         }
 
@@ -63,10 +67,11 @@ namespace BudgetingApp.ViewModels
 
         // ----- Constructor -----
 
-        public FormViewModel()
+        public FormViewModel(DatabaseService databaseService)
 		{
 			// Initialise Collection
 			ExpensesCollection = new ObservableCollection<Expense>();
+            _databaseService = databaseService;
 
 		}
 

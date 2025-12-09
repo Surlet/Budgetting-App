@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using BudgetingApp.ViewModels;
+using System.Collections.ObjectModel;
 
 namespace BudgetingApp
 {
@@ -7,7 +8,7 @@ namespace BudgetingApp
         private ObservableCollection<string> _categories;
         private const string ADD_CATEGORY = "Add a new category";
 
-        public MainPage()
+        public MainPage(FormViewModel viewModel)
         {
             InitializeComponent();
 
@@ -19,6 +20,7 @@ namespace BudgetingApp
             };
 
             CategoryPicker.ItemsSource = _categories;
+            this.BindingContext = viewModel;
         }
 
 

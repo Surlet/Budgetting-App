@@ -4,14 +4,17 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SQLite;
 
 namespace BudgetingApp.Models
 {
-    class Expense
+    public class Expense
     {
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string StoreName { get; set; }
         public string Category { get; set; }
         public double Amount { get; set; }
+        public DateTime CreatedTime { get; set; }
     }
 }

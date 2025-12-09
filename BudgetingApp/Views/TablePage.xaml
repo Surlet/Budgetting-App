@@ -4,18 +4,17 @@
              xmlns:vm="clr-namespace:BudgetingApp.ViewModels"
              x:Class="BudgetingApp.Views.TablePage"
              Title="TablePage">
-    <ContentPage.BindingContext>
-        <vm:TableViewModel />
-    </ContentPage.BindingContext>
     <VerticalStackLayout>
-        <CollectionView ItemsSource="{Binding ExpensesCollection}" Grid.Row="5" Grid.ColumnSpan="2">
+        <CollectionView ItemsSource="{Binding ExpensesCollection}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Grid RowDefinitions="*,*" ColumnDefinitions="3*,*">
-                        <Label Text="{Binding StoreName}" />
-                        <Label Grid.Column="1" Text="{Binding Category}" />
-                        <Label Grid.Row="1" Text="{Binding Amount}" />
-                    </Grid>
+                    <Frame BorderColor="Black" CornerRadius="20">
+                        <Grid RowDefinitions="*,*" ColumnDefinitions="2*,*" Padding="0" RowSpacing="2">
+                            <Label Text="{Binding StoreName}" FontSize="20" />
+                            <Label Grid.Column="1" Text="{Binding Category}" VerticalOptions="End"/>
+                            <Label Grid.Row="1" Text="{Binding Amount, StringFormat='{0:C}'}" />
+                        </Grid>
+                    </Frame>                    
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
