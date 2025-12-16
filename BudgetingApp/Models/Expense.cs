@@ -14,7 +14,8 @@ namespace BudgetingApp.Models
         public int Id { get; set; }
         public string StoreName { get; set; }
         public string Category { get; set; }
-        public double Amount { get; set; }
-        public DateTime CreatedTime { get; set; }
+        public decimal Amount { get; set; }
+        public DateTime CreatedTime { get; set; } = DateTime.Now;
+        public string Title { get; set; }
     }
 }

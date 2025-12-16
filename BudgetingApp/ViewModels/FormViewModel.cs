@@ -47,7 +47,9 @@ namespace BudgetingApp.ViewModels
             {
                 StoreName = storeNameEntry,
                 Category = categoryEntry,
-                Amount = double.Parse(amountEntry)
+                Amount = DecimalParser.ParseFlexible(amountEntry),
+                CreatedTime = DateTime.Now.Date,
+                Title = $"{storeNameEntry} {DateTime.Today.Day}{DateTime.Today.Month}"
             };
             _databaseService.AddAsync(newExpense);
             ExpensesCollection.Add(newExpense);
@@ -59,7 +61,7 @@ namespace BudgetingApp.ViewModels
 
             if(string.IsNullOrWhiteSpace(categoryEntry)) return false;
 
-            if (!double.TryParse(amountEntry, out var amount)) return false;
+            if (!DecimalParser.TryParseFlexible(amountEntry, out var amount)) return false;
             if (amount < 0) return false;
 
             return true;
