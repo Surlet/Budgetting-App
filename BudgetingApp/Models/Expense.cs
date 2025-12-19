@@ -17,5 +17,12 @@ namespace BudgetingApp.Models
         public decimal Amount { get; set; }
         public DateTime CreatedTime { get; set; } = DateTime.Now;
         public string Title { get; set; }
+
+        public void EnsureTitle()
+        {
+            if (!string.IsNullOrWhiteSpace(Title))
+                return;
+            Title = $"{StoreName} {CreatedTime.Day}/{CreatedTime.Month}";
+        }
     }
 }

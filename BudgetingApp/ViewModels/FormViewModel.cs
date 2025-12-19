@@ -31,6 +31,9 @@ namespace BudgetingApp.ViewModels
         [NotifyCanExecuteChangedFor(nameof(AddExpenseCommand))]
         private string amountEntry;
 
+        [ObservableProperty]
+        private string titleEntry;
+
         private readonly DatabaseService _databaseService;
 
 
@@ -48,11 +51,13 @@ namespace BudgetingApp.ViewModels
                 StoreName = storeNameEntry,
                 Category = categoryEntry,
                 Amount = DecimalParser.ParseFlexible(amountEntry),
-                CreatedTime = DateTime.Now.Date,
-                Title = $"{storeNameEntry} {DateTime.Today.Day}{DateTime.Today.Month}"
+                CreatedTime = DateTime.Now,
+                Title = titleEntry
             };
+            newExpense.EnsureTitle();
             _databaseService.AddAsync(newExpense);
             ExpensesCollection.Add(newExpense);
+            ClearEntries();
         }
 
 		private bool CanAddExpense()
@@ -66,6 +71,16 @@ namespace BudgetingApp.ViewModels
 
             return true;
 		}
+
+        // ----- Methods -----
+
+        private void ClearEntries()
+        {
+            TitleEntry = string.Empty;
+            StoreNameEntry = string.Empty;
+            CategoryEntry = string.Empty;
+            AmountEntry = string.Empty;
+        }
 
         // ----- Constructor -----
 

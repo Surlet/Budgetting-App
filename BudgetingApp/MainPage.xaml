@@ -23,18 +23,29 @@
             Grid.ColumnSpan="2"
             FontSize="32"
             Text="Add your expense" />
+        
+        <!-- Enter Title (optional) -->
+
+        <Label Grid.Row="1"
+               Text="Title"
+               VerticalTextAlignment="Center" />
+
+        <Entry Grid.Row="1"
+               Grid.Column="1"
+               WidthRequest="300"
+               Text="{Binding TitleEntry}" />
 
         <!--  Enter Store Name  -->
         <Label
             x:Name="StoreNameLabel"
-            Grid.Row="1"
+            Grid.Row="2"
             Grid.Column="0"
             Text="Store Name"
             VerticalTextAlignment="Center" />
 
         <Entry
             x:Name="StoreNameEntry"
-            Grid.Row="1"
+            Grid.Row="2"
             Grid.Column="1"
             WidthRequest="300"
             Text="{Binding StoreNameEntry}"/>
@@ -42,7 +53,7 @@
         <!--  Enter Category  -->
         <Label
             x:Name="CategoryLabel"
-            Grid.Row="2"
+            Grid.Row="3"
             Grid.Column="0"
             Text="Category"
             VerticalTextAlignment="Center" />
@@ -50,7 +61,7 @@
 
         <Picker
             x:Name="CategoryPicker"
-            Grid.Row="2"
+            Grid.Row="3"
             Grid.Column="1"
             WidthRequest="300"
             SelectedItem="{Binding CategoryEntry}"/>
@@ -58,14 +69,14 @@
         <!--  Enter Price  -->
         <Label
             x:Name="PriceLabel"
-            Grid.Row="3"
+            Grid.Row="4"
             Grid.Column="0"
             Text="Price"
             VerticalTextAlignment="Center" />
 
         <Entry
             x:Name="PriceEntry"
-            Grid.Row="3"
+            Grid.Row="4"
             Grid.Column="1"
             Keyboard="Numeric"
             WidthRequest="300"
@@ -74,23 +85,10 @@
         <!--  Submit Button  -->
         <Button
             x:Name="SubmitButton"
-            Grid.Row="4"
+            Grid.Row="5"
             Grid.ColumnSpan="2"
             Command="{Binding AddExpenseCommand}"
             Text="Submit" />
-
-        <!--  Outcome  -->
-        <CollectionView ItemsSource="{Binding ExpensesCollection}" Grid.Row="5" Grid.ColumnSpan="2">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid RowDefinitions="*,*" ColumnDefinitions="3*,*">
-                        <Label Text="{Binding StoreName}" />
-                        <Label Grid.Column="1" Text="{Binding Category}" />
-                        <Label Grid.Row="1" Text="{Binding Amount}" />
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
 
     </Grid>
 

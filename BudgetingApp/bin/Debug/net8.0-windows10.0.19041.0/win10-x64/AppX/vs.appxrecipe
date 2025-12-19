@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-12-16T16:38:02.158</Modified>
+      <Modified>2025-12-18T23:14:07.401</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-12-05T16:18:58.917</Modified>
+      <Modified>2025-12-17T13:02:44.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.runtimeconfig.json">
       <PackagePath>BudgetingApp.runtimeconfig.json</PackagePath>
-      <Modified>2025-12-05T16:18:58.403</Modified>
+      <Modified>2025-12-17T13:02:44.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.dll">
       <PackagePath>BudgetingApp.dll</PackagePath>
-      <Modified>2025-12-16T16:38:00.591</Modified>
+      <Modified>2025-12-18T23:14:06.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BudgetingApp.exe</PackagePath>
-      <Modified>2025-12-16T16:38:00.669</Modified>
+      <Modified>2025-12-18T23:14:06.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.deps.json">
       <PackagePath>BudgetingApp.deps.json</PackagePath>
-      <Modified>2025-12-05T16:18:58.130</Modified>
+      <Modified>2025-12-17T13:02:43.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.41\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
