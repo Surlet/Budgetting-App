@@ -5,21 +5,10 @@ namespace BudgetingApp
 {
     public partial class MainPage : ContentPage
     {
-        private ObservableCollection<string> _categories;
-        private const string ADD_CATEGORY = "Add a new category";
 
         public MainPage(FormViewModel viewModel)
         {
             InitializeComponent();
-
-            _categories = new ObservableCollection<string>
-            {
-            "Rent",
-            "Groceries",
-            "Leisure",
-            };
-
-            CategoryPicker.ItemsSource = _categories;
             this.BindingContext = viewModel;
         }
 

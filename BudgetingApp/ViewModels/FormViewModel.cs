@@ -37,8 +37,10 @@ namespace BudgetingApp.ViewModels
         private readonly DatabaseService _databaseService;
 
 
-        // Collection with all expenses
+        // Collections
         public ObservableCollection<Expense> ExpensesCollection { get; set; }
+
+        public ObservableCollection<string> CategoriesCollection { get; set; }
 
 		// ----- Commands -----
 
@@ -88,6 +90,15 @@ namespace BudgetingApp.ViewModels
 		{
 			// Initialise Collection
 			ExpensesCollection = new ObservableCollection<Expense>();
+            CategoriesCollection = new ObservableCollection<string>
+            {
+                "Rent",
+                "Groceries",
+                "Leisure",
+                "Going out",
+                "Car & Insurances",
+                "Miscellaneous"
+            };
             _databaseService = databaseService;
 
 		}

@@ -64,6 +64,7 @@
             Grid.Row="3"
             Grid.Column="1"
             WidthRequest="300"
+            ItemsSource="{Binding CategoriesCollection}"
             SelectedItem="{Binding CategoryEntry}"/>
 
         <!--  Enter Price  -->
