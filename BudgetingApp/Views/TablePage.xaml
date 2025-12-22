@@ -5,24 +5,43 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:vm="clr-namespace:BudgetingApp.ViewModels"
     Title="TablePage">
-    <VerticalStackLayout>
-        <CollectionView ItemsSource="{Binding ExpensesCollection}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Frame BorderColor="Black" CornerRadius="20">
-                        <Grid Padding="0" ColumnDefinitions="*,*,*,*,*">
-                            <Label Text="{Binding Title}" />
-                            <Label Grid.Column="1" Text="{Binding StoreName}" />
-                            <Label
+    <ScrollView>
+
+        <VerticalStackLayout>
+            <CollectionView ItemsSource="{Binding ExpensesCollection}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Black" CornerRadius="20">
+                            <Grid
+                            Padding="0"
+                            ColumnDefinitions="*,*,*"
+                            RowDefinitions="*,*,*">
+                                <Label
+                                Grid.Row="1"
+                                FontSize="18"
+                                FontAttributes="Bold"
+                                Text="{Binding Title}" />
+                                <Label
+                                Grid.Row="2"
+                                FontSize="14"
+                                Text="{Binding StoreName}" />
+                                <Label
                                 Grid.Column="2"
                                 Text="{Binding Category}"
-                                VerticalOptions="End" />
-                            <Label Grid.Column="3" Text="{Binding Amount, StringFormat='{0:C}'}" />
-                            <Label Grid.Column="4" Text="{Binding CreatedTime}" />
-                        </Grid>
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-    </VerticalStackLayout>
+                                VerticalOptions="End"
+                                HorizontalTextAlignment="Start" />
+                                <Label
+                                Grid.Row="1"
+                                Grid.Column="2"
+                                FontSize="20"
+                                FontAttributes="Bold"
+                                Text="{Binding Amount, StringFormat='{0:C}'}" />
+                                <Label FontSize="10" Text="{Binding CreatedTime, StringFormat='{0:dddd dd MMMM yyyy}'}" />
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
