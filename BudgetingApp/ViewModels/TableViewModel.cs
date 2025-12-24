@@ -17,7 +17,11 @@ namespace BudgetingApp.ViewModels
 
         private readonly DatabaseService _databaseService;
 
-        
+        [ObservableProperty]
+        public int countExpenses;
+
+        [ObservableProperty]
+        public decimal sumAmountOfExpenses;
 
         public TableViewModel(DatabaseService databaseService)
         {
@@ -30,12 +34,15 @@ namespace BudgetingApp.ViewModels
         private async Task LoadExpensesAsync()
         {
             var data = await _databaseService.GetAllAsync<Expense>();
+            CountExpenses = data.Count;
+            decimal sum = 0;
             ExpensesCollection.Clear();
             foreach (Expense expense in data)
             {
                 ExpensesCollection.Add(expense);
+                sum += expense.Amount;
             }
-
+            SumAmountOfExpenses = sum;
         }
 
     }
