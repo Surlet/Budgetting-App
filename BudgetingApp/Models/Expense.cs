@@ -12,17 +12,21 @@ namespace BudgetingApp.Models
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
-        public string StoreName { get; set; }
-        public string Category { get; set; }
+        public string BeneficiaryName { get; set; }
+        public string CategoryName { get; set; }
         public decimal Amount { get; set; }
         public DateTime CreatedTime { get; set; } = DateTime.Now;
         public string Title { get; set; }
+        [Ignore]
+        private Category Category { get; set; }
 
         public void EnsureTitle()
         {
             if (!string.IsNullOrWhiteSpace(Title))
                 return;
-            Title = $"{StoreName} {CreatedTime.Day}/{CreatedTime.Month}";
+            Title = $"{BeneficiaryName} {CreatedTime.Day}/{CreatedTime.Month}";
         }
+
+        
     }
 }

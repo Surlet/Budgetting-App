@@ -8,7 +8,10 @@
     <ScrollView>
 
         <VerticalStackLayout Padding="10">
-            <HorizontalStackLayout Spacing="15" Padding="10" HorizontalOptions="End">
+            <HorizontalStackLayout
+                Padding="10"
+                HorizontalOptions="End"
+                Spacing="15">
                 <Label Text="{Binding CountExpenses, StringFormat='Count: {0}'}" />
                 <Label Text="{Binding SumAmountOfExpenses, StringFormat='Sum of Expenses: {0:C}'}" />
             </HorizontalStackLayout>
@@ -19,29 +22,27 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame BorderColor="Black" CornerRadius="20">
-                            <Grid                            
-                            ColumnDefinitions="*,*,*"
-                            RowDefinitions="*,*,*">
+                            <Grid ColumnDefinitions="*,*,*" RowDefinitions="*,*,*">
                                 <Label
-                                Grid.Row="1"
-                                FontSize="18"
-                                FontAttributes="Bold"
-                                Text="{Binding Title}" />
+                                    Grid.Row="1"
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="{Binding Title}" />
                                 <Label
-                                Grid.Row="2"
-                                FontSize="14"
-                                Text="{Binding StoreName}" />
+                                    Grid.Row="2"
+                                    FontSize="14"
+                                    Text="{Binding BeneficiaryName}" />
                                 <Label
-                                Grid.Column="2"
-                                Text="{Binding Category}"
-                                VerticalOptions="End"
-                                HorizontalTextAlignment="Start" />
+                                    Grid.Column="2"
+                                    HorizontalTextAlignment="Start"
+                                    Text="{Binding Category}"
+                                    VerticalOptions="End" />
                                 <Label
-                                Grid.Row="1"
-                                Grid.Column="2"
-                                FontSize="20"
-                                FontAttributes="Bold"
-                                Text="{Binding Amount, StringFormat='{0:C}'}" />
+                                    Grid.Row="1"
+                                    Grid.Column="2"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="{Binding Amount, StringFormat='{0:C}'}" />
                                 <Label FontSize="10" Text="{Binding CreatedTime, StringFormat='{0:dddd dd MMMM yyyy}'}" />
                             </Grid>
                         </Frame>

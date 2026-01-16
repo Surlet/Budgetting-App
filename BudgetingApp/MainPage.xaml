@@ -37,10 +37,10 @@
 
         <!--  Enter Store Name  -->
         <Label
-            x:Name="StoreNameLabel"
+            x:Name="BeneficiaryNameLabel"
             Grid.Row="2"
             Grid.Column="0"
-            Text="Store Name"
+            Text="Beneficiary Name"
             VerticalTextAlignment="Center" />
 
         <Entry
@@ -48,7 +48,7 @@
             Grid.Row="2"
             Grid.Column="1"
             WidthRequest="300"
-            Text="{Binding StoreNameEntry}"/>
+            Text="{Binding BeneficiaryEntry}"/>
 
         <!--  Enter Category  -->
         <Label
@@ -65,6 +65,7 @@
             Grid.Column="1"
             WidthRequest="300"
             ItemsSource="{Binding CategoriesCollection}"
+            ItemDisplayBinding="{Binding Name}"
             SelectedItem="{Binding CategoryEntry}"/>
 
         <!--  Enter Price  -->

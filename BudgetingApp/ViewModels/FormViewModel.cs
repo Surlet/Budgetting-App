@@ -21,11 +21,11 @@ namespace BudgetingApp.ViewModels
 
 		[ObservableProperty]
 		[NotifyCanExecuteChangedFor(nameof(AddExpenseCommand))]
-		private string storeNameEntry;
+		private string beneficiaryEntry;
 
 		[ObservableProperty]
         [NotifyCanExecuteChangedFor(nameof(AddExpenseCommand))]
-        private string categoryEntry;
+        private Category categoryEntry;
 
 		[ObservableProperty]
         [NotifyCanExecuteChangedFor(nameof(AddExpenseCommand))]
@@ -40,7 +40,7 @@ namespace BudgetingApp.ViewModels
         // Collections
         public ObservableCollection<Expense> ExpensesCollection { get; set; }
 
-        public ObservableCollection<string> CategoriesCollection { get; set; }
+        public ObservableCollection<Category> CategoriesCollection { get; set; }
 
 		// ----- Commands -----
 
@@ -50,11 +50,11 @@ namespace BudgetingApp.ViewModels
         {
             var newExpense = new Expense()
             {
-                StoreName = storeNameEntry,
-                Category = categoryEntry,
+                BeneficiaryName = beneficiaryEntry,
+                CategoryName = categoryEntry.Name,
                 Amount = DecimalParser.ParseFlexible(amountEntry),
                 CreatedTime = DateTime.Now,
-                Title = titleEntry
+                Title = titleEntry,
             };
             newExpense.EnsureTitle();
             _databaseService.AddAsync(newExpense);
@@ -64,10 +64,7 @@ namespace BudgetingApp.ViewModels
 
 		private bool CanAddExpense()
 		{
-            if (string.IsNullOrWhiteSpace(storeNameEntry)) return false;
-
-            if(string.IsNullOrWhiteSpace(categoryEntry)) return false;
-
+            if (string.IsNullOrWhiteSpace(beneficiaryEntry)) return false;
             if (!DecimalParser.TryParseFlexible(amountEntry, out var amount)) return false;
             if (amount < 0) return false;
 
@@ -79,8 +76,8 @@ namespace BudgetingApp.ViewModels
         private void ClearEntries()
         {
             TitleEntry = string.Empty;
-            StoreNameEntry = string.Empty;
-            CategoryEntry = string.Empty;
+            BeneficiaryEntry = string.Empty;
+            CategoryEntry = null;
             AmountEntry = string.Empty;
         }
 
@@ -90,14 +87,14 @@ namespace BudgetingApp.ViewModels
 		{
 			// Initialise Collection
 			ExpensesCollection = new ObservableCollection<Expense>();
-            CategoriesCollection = new ObservableCollection<string>
+            CategoriesCollection = new ObservableCollection<Category>
             {
-                "Rent",
-                "Groceries",
-                "Leisure",
-                "Going out",
-                "Car & Insurances",
-                "Miscellaneous"
+                new Category{Id = 1, Name = "Rent", LabelColor = Colors.DarkCyan },
+                new Category{Id = 2, Name = "Groceries", LabelColor = Colors.Coral },
+                new Category{Id = 3, Name = "Leisure", LabelColor = Colors.Gold },
+                new Category{Id = 4, Name = "Going out", LabelColor = Colors.DeepPink },
+                new Category{Id = 5, Name = "Car & Insurances", LabelColor = Colors.SpringGreen },
+                new Category{Id = 6, Name = "Miscellaneous", LabelColor = Colors.PowderBlue }
             };
             _databaseService = databaseService;
 
