@@ -1,6 +1,7 @@
 ﻿using BudgetingApp.Services;
 using BudgetingApp.ViewModels;
 using BudgetingApp.Views;
+using CommunityToolkit.Maui;
 using InputKit.Handlers;
 using Microsoft.Extensions.Logging;
 
@@ -13,6 +14,8 @@ namespace BudgetingApp
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
+
                 .ConfigureMauiHandlers(handlers =>
                 {
                     handlers.AddInputKitHandlers();
@@ -28,10 +31,12 @@ namespace BudgetingApp
             builder.Services.AddTransient<FormViewModel>(); // Enregistrez le ViewModel
             builder.Services.AddTransient<TableViewModel>(); // Enregistrez le ViewModel
             builder.Services.AddTransient<SettingsViewModel>();
+            builder.Services.AddTransient<AddBeneficiaryViewModel>();
 
             builder.Services.AddTransient<TablePage>();
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<SettingsPage>();
+            builder.Services.AddTransient<AddBeneficiaryPopup>();
 
 
 #if DEBUG

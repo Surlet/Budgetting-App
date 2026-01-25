@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NNArQPG72/M=",
+  "dgSpecHash": "WKrojyP0SiI=",
   "success": true,
   "projectFilePath": "C:\\Users\\antoi\\OneDrive - Antoine Lejeune\\Formation\\C#\\BudgetingApp\\Budgetting App\\BudgetingApp\\BudgetingApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\antoi\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\communitytoolkit.maui.8.0.0.nupkg.sha512",
+    "C:\\Users\\antoi\\.nuget\\packages\\communitytoolkit.maui.core\\8.0.0\\communitytoolkit.maui.core.8.0.0.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\inputkit.maui\\4.4.0\\inputkit.maui.4.4.0.nupkg.sha512",
@@ -41,6 +43,7 @@
     "C:\\Users\\antoi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
+    "C:\\Users\\antoi\\.nuget\\packages\\system.speech\\8.0.0\\system.speech.8.0.0.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",

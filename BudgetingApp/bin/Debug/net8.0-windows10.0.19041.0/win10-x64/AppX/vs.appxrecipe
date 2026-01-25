@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-01-16T08:35:30.743</Modified>
+      <Modified>2026-01-25T22:34:02.258</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-12-17T13:02:44.609</Modified>
+      <Modified>2026-01-25T22:02:38.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.runtimeconfig.json">
       <PackagePath>BudgetingApp.runtimeconfig.json</PackagePath>
-      <Modified>2025-12-17T13:02:44.130</Modified>
+      <Modified>2026-01-25T22:02:38.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.dll">
       <PackagePath>BudgetingApp.dll</PackagePath>
-      <Modified>2026-01-16T08:35:28.697</Modified>
+      <Modified>2026-01-25T22:34:01.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BudgetingApp.exe</PackagePath>
-      <Modified>2026-01-16T08:35:28.807</Modified>
+      <Modified>2026-01-25T22:34:01.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.deps.json">
       <PackagePath>BudgetingApp.deps.json</PackagePath>
-      <Modified>2025-12-17T13:02:43.933</Modified>
+      <Modified>2026-01-25T22:02:37.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.41\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -296,6 +296,14 @@
     <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.41\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-08-12T00:23:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\communitytoolkit.maui\8.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2024-03-29T12:33:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\communitytoolkit.maui.core\8.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2024-03-29T12:33:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\communitytoolkit.mvvm\8.4.0\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
@@ -448,6 +456,10 @@
     <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.2\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2022-09-18T19:27:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2023-10-31T15:00:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\.nuget\packages\microsoft.maui.controls.core\8.0.72\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>

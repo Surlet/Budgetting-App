@@ -22,6 +22,7 @@ namespace BudgetingApp.Services
         private async Task InitializeAsync()
         {
             await _database.CreateTableAsync<Expense>();
+            await _database.CreateTableAsync<Beneficiary>();
         }
 
 

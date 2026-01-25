@@ -51,6 +51,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = BudgetingApp.Resources.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/antoi/OneDrive - Antoine Lejeune/Formation/C\#/BudgetingApp/Budgetting App/BudgetingApp/Views/AddBeneficiaryPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BudgetingApp.Views.AddBeneficiaryPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddBeneficiaryPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddBeneficiaryPopup.xaml
+
 [C:/Users/antoi/OneDrive - Antoine Lejeune/Formation/C\#/BudgetingApp/Budgetting App/BudgetingApp/Views/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BudgetingApp.Views.SettingsPage.xaml

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+             x:Class="BudgetingApp.Views.AddBeneficiaryPopup">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Beneficiary Name" />
+            <Entry WidthRequest="250" Text="{Binding BeneficiaryName}" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Button Text="Add" Command="{Binding AddBeneficiaryCommand}" />
+            <Button Text="Cancel" Command="{Binding CancelCommand}"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</toolkit:Popup>

@@ -3,12 +3,12 @@
     x:Class="BudgetingApp.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:vm="clr-namespace:BudgetingApp.ViewModels"
-    xmlns:input="clr-namespace:InputKit.Shared.Controls;assembly=InputKit.Maui">
+    xmlns:input="clr-namespace:InputKit.Shared.Controls;assembly=InputKit.Maui"
+    xmlns:vm="clr-namespace:BudgetingApp.ViewModels">
 
     <Grid
         Padding="15"
-        ColumnDefinitions="Auto, Auto"
+        ColumnDefinitions="Auto, Auto, Auto"
         ColumnSpacing="15"
         HorizontalOptions="Center"
         RowDefinitions="Auto, Auto, Auto, Auto, Auto, *"
@@ -23,17 +23,19 @@
             Grid.ColumnSpan="2"
             FontSize="32"
             Text="Add your expense" />
-        
-        <!-- Enter Title (optional) -->
 
-        <Label Grid.Row="1"
-               Text="Title"
-               VerticalTextAlignment="Center" />
+        <!--  Enter Title (optional)  -->
 
-        <Entry Grid.Row="1"
-               Grid.Column="1"
-               WidthRequest="300"
-               Text="{Binding TitleEntry}" />
+        <Label
+            Grid.Row="1"
+            Text="Title"
+            VerticalTextAlignment="Center" />
+
+        <Entry
+            Grid.Row="1"
+            Grid.Column="1"
+            Text="{Binding TitleEntry}"
+            WidthRequest="300" />
 
         <!--  Enter Store Name  -->
         <Label
@@ -43,12 +45,22 @@
             Text="Beneficiary Name"
             VerticalTextAlignment="Center" />
 
-        <Entry
-            x:Name="StoreNameEntry"
+        <Picker
+            x:Name="BeneficiaryPicker"
             Grid.Row="2"
             Grid.Column="1"
-            WidthRequest="300"
-            Text="{Binding BeneficiaryEntry}"/>
+            ItemDisplayBinding="{Binding Name}"
+            ItemsSource="{Binding BeneficiariesCollection}"
+            SelectedItem="{Binding BeneficiaryEntry}"
+            WidthRequest="300" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="2"
+            Command="{Binding OpenAddBeneficiaryCommand}"
+            FontAttributes="Bold"
+            FontSize="20"
+            Text="+"
+            WidthRequest="50" />
 
         <!--  Enter Category  -->
         <Label
@@ -63,10 +75,10 @@
             x:Name="CategoryPicker"
             Grid.Row="3"
             Grid.Column="1"
-            WidthRequest="300"
-            ItemsSource="{Binding CategoriesCollection}"
             ItemDisplayBinding="{Binding Name}"
-            SelectedItem="{Binding CategoryEntry}"/>
+            ItemsSource="{Binding CategoriesCollection}"
+            SelectedItem="{Binding CategoryEntry, Mode=TwoWay}"
+            WidthRequest="300" />
 
         <!--  Enter Price  -->
         <Label
@@ -81,8 +93,8 @@
             Grid.Row="4"
             Grid.Column="1"
             Keyboard="Numeric"
-            WidthRequest="300"
-            Text="{Binding AmountEntry}"/>
+            Text="{Binding AmountEntry}"
+            WidthRequest="300" />
 
         <!--  Submit Button  -->
         <Button
