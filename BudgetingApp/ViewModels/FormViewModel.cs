@@ -89,8 +89,10 @@ namespace BudgetingApp.ViewModels
             {
                 BeneficiariesCollection.Add(newBeneficiary); // ObservableCollection
             }
+            SortBeneficiaries();
         }
 
+        //Load Beneficiaries in the Collection
         [RelayCommand]
         private async Task LoadBeneficiariesAsync()
         {
@@ -100,17 +102,29 @@ namespace BudgetingApp.ViewModels
             {
                  BeneficiariesCollection.Add(beneficiary);
             }
-            
+            SortBeneficiaries();           
         }
 
         // ----- Methods -----
 
+        //Clear all entries
         private void ClearEntries()
         {
             TitleEntry = string.Empty;
             BeneficiaryEntry = null;
             CategoryEntry = null;
             AmountEntry = string.Empty;
+        }
+
+        //Sort the Beneficiaries in the Collection
+        private void SortBeneficiaries()
+        {
+            var sorted = BeneficiariesCollection.OrderBy(b => b.Name).ToList();
+            BeneficiariesCollection.Clear();
+            foreach (var beneficiary in sorted)
+            {
+                BeneficiariesCollection.Add(beneficiary);
+            }
         }
 
         // ----- Constructor -----

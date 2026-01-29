@@ -60,7 +60,8 @@
             FontAttributes="Bold"
             FontSize="20"
             Text="+"
-            WidthRequest="50" />
+            WidthRequest="50"
+            BackgroundColor="#FF7444"/>
 
         <!--  Enter Category  -->
         <Label
@@ -102,7 +103,8 @@
             Grid.Row="5"
             Grid.ColumnSpan="2"
             Command="{Binding AddExpenseCommand}"
-            Text="Submit" />
+            Text="Submit"
+            BackgroundColor="#FF7444" />
 
     </Grid>
 

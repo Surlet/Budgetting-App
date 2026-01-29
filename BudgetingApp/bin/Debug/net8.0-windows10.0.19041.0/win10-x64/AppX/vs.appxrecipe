@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-01-25T22:34:02.258</Modified>
+      <Modified>2026-01-27T19:54:47.876</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BudgetingApp.dll">
       <PackagePath>BudgetingApp.dll</PackagePath>
-      <Modified>2026-01-25T22:34:01.656</Modified>
+      <Modified>2026-01-27T19:54:46.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BudgetingApp.exe</PackagePath>
-      <Modified>2026-01-25T22:34:01.667</Modified>
+      <Modified>2026-01-27T19:54:46.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\antoi\OneDrive - Antoine Lejeune\Formation\C#\BudgetingApp\Budgetting App\BudgetingApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
